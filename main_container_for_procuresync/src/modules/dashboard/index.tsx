@@ -88,7 +88,7 @@ export default function DashboardModule() {
         <h2 className="text-2xl font-semibold mb-2">Welcome to ProcureSync</h2>
         {user && (
           <p className="text-gray-600 dark:text-gray-400">
-            Hello, {user.name}. Here's your procurement dashboard.
+            Hello, {user.name}. Here&apos;s your procurement dashboard.
           </p>
         )}
       </div>
