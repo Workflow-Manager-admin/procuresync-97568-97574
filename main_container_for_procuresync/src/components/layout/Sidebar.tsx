@@ -82,8 +82,8 @@ function NavLink({ item }: { item: NavItem }) {
           : "text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800"
       }`}
       onClick={() => {
-        const module = item.path === "/" ? "dashboard" : item.path.slice(1);
-        setCurrentModule(module);
+        const moduleName = item.path === "/" ? "dashboard" : item.path.slice(1);
+        setCurrentModule(moduleName);
       }}
     >
       <span className="mr-3">{item.icon && getIcon(item.icon)}</span>
